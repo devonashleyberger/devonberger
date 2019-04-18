@@ -6393,7 +6393,7 @@ h1.pt-col-main {
 
 .owl-pagination{
   z-index:5;
-	display: block;
+	display: none;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
