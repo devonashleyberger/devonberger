@@ -747,6 +747,7 @@ support for no js
 .pt-150-b-110-cont{ padding-top:150px; padding-bottom:110px;}
 
 @media only screen and (max-width : 1024px) {
+  .p-80-cont{ padding-top:0px; padding-bottom:40px;}
   .p-140-cont{ padding-top:120px; padding-bottom:120px;}
 }
 
