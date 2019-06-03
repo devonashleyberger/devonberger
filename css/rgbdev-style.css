@@ -1,0 +1,183 @@
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  padding: 0;
+}
+
+.content div.workflow {
+  align-content: center;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.workflow img{
+  width:  40%;
+  margin:0 auto;
+  display:block;
+}
+
+.workflow img.staff {
+  width: 20%;
+  padding: 5% 0;
+
+}
+
+.workflow img.server {
+  width: 40%;
+}
+
+.action img {
+  padding: 5% 0;
+  max-width: 50px;
+}
+
+.action {
+  font-size: 14px;
+}
+
+.darkBG .action img {
+  width: 15%;
+}
+
+.darkBG .action {
+  color: #f8f8f8;
+  padding: 5%;
+}
+
+.darkBG div.workflow {
+  /* padding-top: 5%; */
+  padding-bottom: 5%;
+}
+
+.action p,
+.action h4{
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.horizontal {
+  display: none;
+}
+
+.clients h4,
+.case-study h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #808080;
+  padding-bottom: 30px;
+}
+
+.case-study h4 {
+  padding-top: 5px;
+}
+
+.clients h4 {
+  text-align: center;
+}
+
+.clients div {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+}
+
+.clients div img{
+  padding: 0 17px 32px;
+  vertical-align: middle;
+}
+
+/* browser styles */
+@media only screen and (min-width: 600px) {
+  /* .content {
+    padding: 5%;
+  } */
+
+  .content.center {
+    padding-bottom: 0;
+  }
+
+  .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .content div.workflow {
+    padding-top: 0;
+  }
+
+  .workflow img{
+    width:  35%;
+  }
+
+  .workflow img.staff {
+    width: 15%;
+  }
+
+  .action img {
+    width: 5%;
+  }
+
+  .workflow .action{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .kchung h5 {
+    /* padding-top: 0; */
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .block {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    padding-bottom: 0;
+  }
+
+  .spacer {
+    width: 10%;
+    height: 100px;
+    display: inline-block;
+    float: left;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  .horizontal {
+    display: block;
+  }
+
+  .workflow.horizontal{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .workflow img{
+    width:  15%;
+    display: inline-block;
+    float: left;
+  }
+
+  .action img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .slideshow img.mobile {
+    width:  50%;
+    padding: 0 25%;
+  }
+
+  .slideshow img.browser {
+    width:  100%;
+  }
+
+}
