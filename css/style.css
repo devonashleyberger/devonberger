@@ -8134,6 +8134,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 /* devon */
+.container {
+  max-width: 1110px;
+}
 
 @media (min-width: 992px){
 
