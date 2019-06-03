@@ -947,10 +947,11 @@ support for no js
     position: relative;
     height: 300px;
   }
-  .fes7-img.recharge,.fes7-img.versal{
+  .fes7-img.recharge,.fes7-img.versal,.fes7-img.vortechs{
     max-width: 490px;
     margin: 0 auto;
   }
+
 }
 
 /* #FEATURES 8 #NEW
@@ -8133,6 +8134,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 /* devon */
+.container {
+  max-width: 1110px;
+}
 
 @media (min-width: 992px){
 
