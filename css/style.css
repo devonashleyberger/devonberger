@@ -399,20 +399,7 @@ support for no js
 
 /* #FOOTER 2 NEW
 =====================================================*/
-.footer-2-copy-cont {
-  padding-top:30px;
-  border-top: 1px solid #eee;
-}
-.footer-2-copy {
-  font-size:11px;
-  color:#7e8082;
-}
-.footer-2-copy:hover {
-  color:#101010;
-}
-.footer-2-soc-a a {
-  font-size:16px;
-}
+
 .footer-2-text-cont {
     margin-bottom: 30px;
 }
@@ -544,10 +531,6 @@ h6 {
 .heading-center h1, .heading-center h2, .heading-center h3, .heading-center h4, .heading-center h5, .heading-center h6, .heading-center p{
   text-align: center;
   margin: 18px 0px;
-}
-
-.heading-center h3{
-  margin-top: 21px;
 }
 
 /*****	#DIVIDERS	*****/
