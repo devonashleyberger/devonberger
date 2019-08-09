@@ -178,6 +178,7 @@ support for no js
   opacity: 0;
   z-index: 2;
   transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	color:#fff;
 }
 .port-main-img {
   transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -226,7 +227,7 @@ support for no js
 .port-item:hover .port-img-overlay:after, .lightbox-item:hover .port-img-overlay:after {
   background: rgba(16,16,16, .85);
 }
-.port-item .port-img-overlay:after , .lightbox-item .port-img-overlay:after  {
+/* .port-item .port-img-overlay:after , .lightbox-item .port-img-overlay:after  {
   content: "";
   display: block;
   width: 100%;
@@ -240,7 +241,7 @@ support for no js
   -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
   -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
   transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
+} */
 .port-img-overlay {
   position: relative;
   overflow: hidden;
@@ -411,6 +412,9 @@ support for no js
 }
 .footer-2-soc-a a {
   font-size:16px;
+}
+.footer-2-text-cont {
+    margin-bottom: 30px;
 }
 .container-m-60 {
   padding-right: 60px;
