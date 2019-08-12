@@ -276,7 +276,7 @@ support for no js
   font-size:16px;
   line-height:24px;
   font-weight:600;
-  color:#fff;
+  /* color:#fff; */
 }
 .port-title-cont h3 a {
   color:#fff;
@@ -380,15 +380,6 @@ support for no js
   font-weight: 400;
   text-transform:uppercase;
 }
-.page-title-font-big {
-  margin-bottom:0px;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 10px;
-  font-weight: 600;
-  /* color:#6f7175; */
-  text-transform:uppercase;
-}
 .page-sub-title {
   margin-bottom:15px;
   letter-spacing: 3px;
@@ -402,21 +393,6 @@ support for no js
 
 .footer-2-text-cont {
     margin-bottom: 30px;
-}
-.container-m-60 {
-  padding-right: 60px;
-  padding-left: 60px;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  width: 100%;
-}
-
-@media (max-width: 992px) {
-  .container-m-60 {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
 }
 
 /* #WORK NAV #NEW
