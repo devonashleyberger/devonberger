@@ -59,7 +59,9 @@ body {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	color: #7e8082;
-	background-color: #fff;
+	background-color: #FFF;
+	/* background-image: radial-gradient(#ffea00, #D6FF00, #ffffff); */
+
 	-webkit-font-smoothing: antialiased !important;
 	-webkit-text-size-adjust: 100% !important;
 }
@@ -549,14 +551,10 @@ hr {
 }
 
 /***** #HIGHLIGHTS *****/
-.highlight-text, .highlight-text-grey {
+.highlight-text {
 	background-color: #ffea00;
   color:#4b4e53;
 	padding: 0 3px;
-}
-.highlight-text-grey {
-	background-color: #C0C0C0;
-	color: #fff;
 }
 
 /*****	#BUTTONS	*****/
@@ -589,7 +587,7 @@ a {
   transition: all .3s ease 0s;
 }
 a:hover {
-  background-color: #ffea00;
+  background-color: #ffea00 !important;
   color:#4b4e53;
   text-decoration: none;
   transition: all .3s ease 0s;
