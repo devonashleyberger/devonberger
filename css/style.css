@@ -546,7 +546,7 @@ h6 {
 	border-top: 2px dashed #eee;
 }
 hr {
-	border-top: 1px solid #eee;
+	/* border-top: 1px solid #eee; */
 	margin: 22px 0 22px 0;
 }
 
@@ -592,6 +592,10 @@ a:hover {
   text-decoration: none;
   transition: all .3s ease 0s;
 	cursor:pointer;
+}
+.a-text {
+	display: inline-block;
+	margin-bottom: 10px;
 }
 
 /* #MARGINS #PADDINGS
