@@ -8,6 +8,7 @@
   align-content: center;
   text-align: center;
   padding-top: 5%;
+  padding-bottom:5%;
 }
 
 .workflow img{
@@ -19,7 +20,6 @@
 .workflow img.staff {
   width: 20%;
   padding: 5% 0;
-
 }
 
 .workflow img.server {
