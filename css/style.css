@@ -1,6 +1,6 @@
 /* #CSS RESET
  ===================================================================*/
-html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em,  t, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
 margin: 0;
 padding: 0;
 border: 0;
@@ -23,7 +23,7 @@ html,body{
 	margin:0;
 	padding:0;
 }
-table {
+table {  
 	border-collapse:collapse;
 	border-spacing:0;
 }
@@ -59,9 +59,11 @@ body {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	color: #7e8082;
-	background-color: #FFF;
-	/* background-image: radial-gradient(#ffea00, #D6FF00, #ffffff); */
-
+  background-color: #F5F5DC;
+  background-image: url(/images/devberg.png); 
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 200px;
 	-webkit-font-smoothing: antialiased !important;
 	-webkit-text-size-adjust: 100% !important;
 }
@@ -77,12 +79,12 @@ body {
 ::selection
 {
 	background-color: #ffea00;
-  color:#4b4e53;
+  color:#022602;
 }
 ::-moz-selection
 {
 	background-color: #ffea00;
-  color:#4b4e53;
+  color:#022602;
 }
 .relative {
   position: relative;
@@ -136,8 +138,8 @@ support for no js
 	font-weight:300;
 	font-size:30px;
 	line-height:36px;
-	color:#4b4e53;
-  border-left:#4b4e53 2px solid;
+	color:#022602;
+  border-left:#022602 2px solid;
 }
 .p-50-cont{ padding-top:50px; padding-bottom:50px;}
 .p-60-cont{ padding-top:60px; padding-bottom:60px;}
@@ -156,13 +158,6 @@ support for no js
 .pt-110-b-80-cont{ padding-top:110px; padding-bottom:80px;}
 .pt-120-b-100-cont{ padding-top:120px; padding-bottom:100px;}
 .pt-150-b-110-cont{ padding-top:150px; padding-bottom:110px;}
-
-.grey-light-bg{
-	background-color:#eee;
-}
-.yellow-bg{
-	background-color:#ffea00 !important;
-}
 
 /* #PORTFOLIO 1 #NEW
 =====================================================*/
@@ -300,7 +295,18 @@ support for no js
 .port-title-cont h3 img {
   width: 20px;
   margin-top: 10px;
- } /* devon */
+ } 
+
+
+ /* devon */
+
+.container.light-bg{
+  background-color:#FFF;
+}
+.yellow-bg{
+  background-color:#ffea00 !important;
+}
+
 .port-btn-cont a{
   color:#bebebe;
   font-size:18px;
@@ -325,7 +331,7 @@ support for no js
 }
 .port-view-more:hover {
   background:#dedede;
-  color:#4b4e53;
+  color:#022602;
 }
 .port-view-more-cont-dark {
   text-align:center;
@@ -334,7 +340,7 @@ support for no js
   display:block;
   padding-top:55px;
   padding-bottom:52px;
-  background:#4b4e53;
+  background:#022602;
   font-family: 'Lato',Arial,Helvetica,sans-serif;
   color:#fff;
   font-size:18px;
@@ -360,7 +366,7 @@ support for no js
 }
 .port-view-more-inv:hover {
   background:#eee;
-  color:#4b4e53;
+  color:#022602;
 }
 .mobile .port-overlay-cont{
   display:none;
@@ -378,13 +384,13 @@ support for no js
   margin-bottom:20px;
   font-size: 24px;
   line-height: 25px;
-  letter-spacing: 5px;
-  font-weight: 400;
+  letter-spacing: 2px;
+  font-weight: 600;
   text-transform:uppercase;
 }
-.page-sub-title {
+ .page-sub-title{
   margin-bottom:15px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 12px;
   line-height:15px;
   text-transform:uppercase;
@@ -418,7 +424,9 @@ support for no js
 	text-decoration: none;
 	white-space: nowrap;
 	cursor: default;
-  background: #eeeeee;
+  background: #fff;
+  padding: 18px;
+  border-radius: 40px;
 }
 .work-navigation a span{
 	display: inline-block;
@@ -465,11 +473,11 @@ ul#portfolio {
 h1, h2, h3{
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
 	font-weight:normal;
-	color: #4b4e53;
+	color: #022602;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #4b4e53;
+	color: #022602;
 	margin: 0;
 }
 h1 {
@@ -553,7 +561,7 @@ hr {
 /***** #HIGHLIGHTS *****/
 .highlight-text {
 	background-color: #ffea00;
-  color:#4b4e53;
+  color:#022602;
 	padding: 0 3px;
 }
 
@@ -566,7 +574,7 @@ button {
 }
 .button {
 	background-color:#ffea00;
-	color:#4b4e53;
+	color:#022602;
 	border:none;
 	border-radius:2px;
 	transition: all .3s ease 0s;
@@ -581,14 +589,14 @@ button {
 	transition: all .3s ease 0s;
 }
 a {
-  color: #4b4e53;
+  color: #022602;
 	outline: none !important;
   text-decoration: none;
   transition: all .3s ease 0s;
 }
 a:hover {
   background-color: #ffea00 !important;
-  color:#4b4e53;
+  color:#022602;
   text-decoration: none;
   transition: all .3s ease 0s;
 	cursor:pointer;
@@ -740,7 +748,7 @@ a:hover {
 #back-top a {
 	text-decoration: none;
 	display: block;
-	color:#4b4e53;
+	color:#022602;
   font-size:34px;
 	z-index:999;
 }
